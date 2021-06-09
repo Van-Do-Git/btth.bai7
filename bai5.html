@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chuyen doi tien te</title>
+    <script src="bai5.js"></script>
+</head>
+<body>
+<table>
+    <tr style="text-align: center">
+        <td>Amount</td>
+        <td>From currency</td>
+        <td>To currency</td>
+        <td></td>
+    </tr>
+    <tr style="text-align: center">
+        <td><input type="number" id="sotien"></td>
+        <td>
+            <select name="quocgia" id="tutien">
+                <option value="vietnam">Viet Nam</option>
+                <option value="american">Hoa Ky</option>
+            </select>
+        </td>
+        <td>
+            <select name="quocgia" id="thanhtien">
+                <option value="vietnam">VND</option>
+                <option value="american">USD</option>
+            </select>
+        </td>
+        <td><button onclick="chuyendoi()">Convert</button></td>
+    </tr>
+</table>
+</body>
+</html>
