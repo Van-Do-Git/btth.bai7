@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Doi tien te cach 2</title>
+    <script src="bai5.2.js"></script>
+</head>
+<body>
+<table>
+<tr style="text-align: center">
+    <td>Amount</td>
+    <td>From currency</td>
+    <td>To currency</td>
+    <td></td>
+</tr>
+<tr style="text-align: center">
+    <td><input type="number" id="sotien"></td>
+    <td>
+        <select name="quocgia" id="tutien">
+            <option value="23000">Viet Nam</option>
+            <option value="1">Hoa Ky</option>
+        </select>
+    </td>
+    <td>
+        <select name="quocgia" id="thanhtien">
+            <option value="23000">VND</option>
+            <option value="1">USD</option>
+        </select>
+    </td>
+    <td><button onclick="chuyendoi()">Convert</button></td>
+</tr>
+</table>
+<p id="ketqua">ket qua</p>
+</body>
+</html>
